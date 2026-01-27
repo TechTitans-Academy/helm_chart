@@ -127,12 +127,13 @@ This section lists commonly used Helm commands with simple explanations.
 
 1. helm version
 2. helm ls
-3. helm create <release-name>
-4. helm install <release-name> .
+3. helm create <release-name> #chart creation.
+4. helm install <release-name> . #
 5. helm upgrade or helm upgrade --install
 6. helm rollback <release-name> <revision-no>
-7. heml template . <release-name> --dry-run --debug
+7. heml template . <release-name> --dry-run --debug #put the values in actual yml files.
 8. helm uninstall dinner-page
+9. helm history <release-name> #history of application.
 
 Port Forwarding with Kubectl `kubectl port-forward svc/dinner-page-dinner-app 8888`
 
