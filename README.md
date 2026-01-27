@@ -54,7 +54,9 @@ Without Helm:
 
 With Helm:
 👉 You have a **recipe (Helm Chart)**  
-👉 You just say:
+👉 You just say: Make pizza with extra cheese 🍕
+
+>> Helm prepares everything for you automatically.
 
 ## 📦 Helm Core Concepts Explained
 
