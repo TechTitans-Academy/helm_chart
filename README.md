@@ -108,6 +108,15 @@ values.yaml is the configuration file for a Helm chart. It contains values that 
 In simple words:
 - values.yaml = Configuration file
 
+### Quick One-Line Definitions:
+
+1. <b>Chart:</b> A packaged Kubernetes application containing templates and configuration.
+2. <b>Repository:</b> A central place where Helm charts are stored and shared.
+3. <b>Template:</b> Kubernetes YAML files with placeholders rendered by Helm.
+4. <b>values.yaml:</b> Configuration file used to customize Helm templates.
+5. vRelease:</b> A running instance of a Helm chart in a Kubernetes cluster.
+6. <b>Helm:</b> A package manager that simplifies Kubernetes application deployment.
+
 
 ## 🧾 Helm Commands Cheat Sheet
 
