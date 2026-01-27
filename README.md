@@ -40,7 +40,6 @@ Managing Kubernetes applications using plain YAML files becomes difficult when:
 - Version control for deployments
 - One command deployment
 
-
 ## 🧠 Simple Analogy (Easy to Remember)
 
 ### 🍕 Pizza Analogy
@@ -77,7 +76,6 @@ Think of a chart as a complete application definition that includes:
 In simple words:
 - Chart = Application package
 
-
 ### 🌐 What is a Helm Repository?
 
 A Helm Repository is a storage location for Helm charts. It works exactly like:
@@ -88,6 +86,14 @@ A Helm Repository is a storage location for Helm charts. It works exactly like:
 
 In simple words:
 - Repository = Chart store
+
+### 🧩 What are Templates in Helm?
+
+Templates are Kubernetes YAML files with placeholders. Helm uses Go templating to dynamically generate YAML based on values.
+
+In simple words:
+
+- Templates = Reusable Kubernetes YAML
 
 ### 🧾 What is values.yaml in Helm?
 
