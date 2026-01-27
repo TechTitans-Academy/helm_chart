@@ -57,6 +57,51 @@ With Helm:
 👉 You have a **recipe (Helm Chart)**  
 👉 You just say:
 
+## 📦 Helm Core Concepts Explained
+
+Helm works using a few key building blocks. Understanding these makes Helm very easy.
+
+### 📊 What is a Chart in Helm?
+
+A Helm Chart is a package of Kubernetes resources.
+
+Think of a chart as a complete application definition that includes:
+
+- Deployments
+- Services
+- ConfigMaps
+- Secrets
+- Ingress
+- Configuration values
+
+In simple words:
+- Chart = Application package
+
+
+### 🌐 What is a Helm Repository?
+
+A Helm Repository is a storage location for Helm charts. It works exactly like:
+
+- apt repo for Linux
+- npm registry for Node.js
+- docker hub for Docker images
+
+In simple words:
+- Repository = Chart store
+
+### 🧾 What is values.yaml in Helm?
+
+values.yaml is the configuration file for a Helm chart. It contains values that are injected into templates, such as:
+
+- Image name & tag
+- Number of replicas
+- Service type
+- Ports
+- Environment variables
+
+In simple words:
+- values.yaml = Configuration file
+
 
 ## 🧾 Helm Commands Cheat Sheet
 
